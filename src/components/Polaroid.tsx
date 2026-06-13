@@ -39,7 +39,7 @@ export function Polaroid({
       )}
       <div className="aspect-square w-full overflow-hidden bg-sepia/20">
         {src ? (
-          <img src={src} alt={alt} loading="lazy" className="w-full h-full object-cover" />
+          <img src={src} alt={alt} loading="lazy" className="w-full h-full object-cover" style={{ filter: "sepia(0.35) saturate(0.88) brightness(0.96) contrast(1.06)" }} />
         ) : (
           children ?? (
             <div className="w-full h-full grid place-items-center font-hand text-cocoa/40 text-xl text-center px-4">

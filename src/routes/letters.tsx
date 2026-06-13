@@ -16,7 +16,7 @@ const reasons: Reason[] = [
   { title: "for your strength",
     letter: "You carry weight like it doesn't weigh anything. Seventeen years in one chapter and then the courage to open a new one — that's not stubbornness, that's spine. We're learning from it." },
   { title: "for your humour",
-    letter: "You don't try to be funny. You just are. Your pronunciations, your timing, calling Mumma \u201CPrenka\u201D with full conviction — the house has its own laugh track because you live in it." },
+    letter: "You don't try to be funny. You just are. Your timings, calling Mumma \u201CPrenka\u201D with full conviction — the house has its own laugh track because you live in it." },
   { title: "for your courage",
     letter: "Starting again at any age is hard. Starting again with a family looking up at you is harder. You did it anyway. Quietly. Like it was the obvious thing to do." },
   { title: "for your patience",

@@ -2,20 +2,20 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ScrapbookLayout } from "@/components/ScrapbookLayout";
 import { Polaroid } from "@/components/Polaroid";
 import { StickyNote } from "@/components/StickyNote";
-import mountains from "@/assets/polaroid-mountains.jpg";
-import kerala from "@/assets/polaroid-kerala.jpg";
-import food from "@/assets/polaroid-food.jpg";
-import family from "@/assets/polaroid-family.jpg";
+import photo1 from "@/assets/image1.png";
+import photo2 from "@/assets/image2.png";
+import photo3 from "@/assets/image3.png";
+import photo4 from "@/assets/image4.png";
 
 export const Route = createFileRoute("/memory-lane")({
   component: MemoryLane,
 });
 
 const polaroids = [
-  { caption: "the one with the misty pines", rotate: -4, src: mountains, top: "2%",  left: "4%",  size: "md" as const },
-  { caption: "us, mid-laughter",             rotate:  3, src: family,    top: "18%", left: "38%", size: "md" as const },
-  { caption: "still water, slow morning",    rotate: -2, src: kerala,    top: "52%", left: "8%",  size: "md" as const },
-  { caption: "the thali that started it all",rotate:  5, src: food,      top: "58%", left: "55%", size: "sm" as const },
+  { rotate: -4, src: photo1, top: "2%",  left: "4%",  size: "md" as const },
+  { rotate:  3, src: photo2, top: "18%", left: "38%", size: "md" as const },
+  { rotate: -2, src: photo3, top: "52%", left: "8%",  size: "md" as const },
+  { rotate:  5, src: photo4, top: "58%", left: "55%", size: "sm" as const },
 ];
 
 const memoryNotes = [
@@ -65,7 +65,7 @@ function MemoryLane() {
             className="absolute animate-drift"
             style={{ top: c.top, left: c.left, ["--r" as string]: `${c.rotate}deg`, animationDelay: `${i * 0.5}s` }}
           >
-            <Polaroid src={c.src} caption={c.caption} rotate={c.rotate} size={c.size} tape={i % 2 ? "left" : "top"} />
+            <Polaroid src={c.src} rotate={c.rotate} size={c.size} tape={i % 2 ? "left" : "top"} />
           </div>
         ))}
 

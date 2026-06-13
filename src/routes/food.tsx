@@ -11,7 +11,7 @@ const dishes = [
   { name: "Himachali khatti dal", rating: 10, badge: "Papa Approved",        sweetTooth: false, note: "the comfort dish. nothing comes close." },
   { name: "Madra",                rating: 10, badge: "Would Order Again",    sweetTooth: false, note: "chickpeas in yogurt. quiet genius." },
   { name: "Kachori",              rating:  9, badge: "Eats Everything",      sweetTooth: false, note: "breakfast? lunch? evening? yes." },
-  { name: "Nani's kitchen",       rating: 11, badge: "Off the Charts",       sweetTooth: false, note: "the original 5-star establishment." },
+  { name: "Nani's and mamma's kitchen",       rating: 11, badge: "Off the Charts",       sweetTooth: false, note: "the original 5-star establishment." },
   { name: "Mithai (any kind)",    rating: 10, badge: "Sweet Tooth Approved", sweetTooth: true,  note: "dessert always has room. always." },
   { name: "Anything experimental", rating: 8, badge: "No Food Left Behind",  sweetTooth: false, note: "willing to try. won't lie about it." },
 ];
@@ -91,7 +91,7 @@ function Food() {
 
       <section className="mt-14 text-center">
         <p className="font-hand text-3xl text-cocoa rotate-[-1deg] inline-block">
-          honorary mention: chai. always chai.
+          honorary mention: meetha. always meetha.
         </p>
       </section>
     </ScrapbookLayout>
