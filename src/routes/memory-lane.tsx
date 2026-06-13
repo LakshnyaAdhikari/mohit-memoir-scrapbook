@@ -43,7 +43,26 @@ function MemoryLane() {
         <span className="stamp text-sm" style={{ transform: "rotate(8deg)" }}>Do Not Sort</span>
       </header>
 
-      <section className="paper-card relative h-[820px] sm:h-[760px] overflow-hidden p-4">
+      {/* Mobile layout: simple stacked grid */}
+      <section className="sm:hidden paper-card p-4 flex flex-col gap-6">
+        {polaroids.map((c, i) => (
+          <div key={i} className="flex justify-center">
+            <Polaroid src={c.src} rotate={c.rotate} size="md" tape={i % 2 ? "left" : "top"} />
+          </div>
+        ))}
+        <StickyNote rotate={-2} color="yellow">
+          The calm outings in Dharamshala-eating at center point, going to the Dari Mela, visit to your friends' place, going on long drives "Gedi maarke aate the"
+        </StickyNote>
+        <StickyNote rotate={2} color="rose">
+          and that one Kerala night — 60 desserts, beautiful resort and pretty backwaters
+        </StickyNote>
+        <p className="font-hand text-cocoa/70 text-xl text-center">
+          ~ everything important happened off-camera ~
+        </p>
+      </section>
+
+      {/* Desktop layout: freeform board */}
+      <section className="hidden sm:block paper-card relative h-[760px] overflow-hidden p-4">
         {doodles.map((d, i) => (
           <span
             key={i}
