@@ -56,9 +56,6 @@ function MemoryLane() {
         <StickyNote rotate={2} color="rose">
           and that one Kerala night — 60 desserts, beautiful resort and pretty backwaters
         </StickyNote>
-        <p className="font-hand text-cocoa/70 text-xl text-center">
-          ~ everything important happened off-camera ~
-        </p>
       </section>
 
       {/* Desktop layout: freeform board */}
@@ -95,9 +92,6 @@ function MemoryLane() {
           and that one Kerala night — 60 desserts, beautiful resort and pretty backwaters
         </StickyNote>
 
-        <p className="absolute bottom-3 left-6 font-hand text-cocoa/70 text-2xl" style={{ transform: "rotate(-3deg)" }}>
-          ~ everything important happened off-camera ~
-        </p>
       </section>
 
       <section className="mt-12">
