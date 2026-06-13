@@ -70,10 +70,10 @@ function MemoryLane() {
         ))}
 
         <StickyNote rotate={-6} color="yellow" className="absolute top-[6%] right-[4%] max-w-[200px]">
-          remember the rain in Dharamshala? you said "ek aur chai" three times. legend.
+          The calm outings in Dharamshala-eating at center point, going to the Dari Mela, visit to your friends' place, going on long drives "Gedi maarke aate the"
         </StickyNote>
         <StickyNote rotate={5} color="rose" className="absolute bottom-[6%] right-[8%] max-w-[220px]">
-          and that one Kerala morning — fish curry for breakfast. you didn't even blink.
+          and that one Kerala night — 60 desserts, beautiful resort and pretty backwaters
         </StickyNote>
 
         <p className="absolute bottom-3 left-6 font-hand text-cocoa/70 text-2xl" style={{ transform: "rotate(-3deg)" }}>
