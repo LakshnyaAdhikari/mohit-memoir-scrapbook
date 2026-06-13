@@ -8,7 +8,7 @@ export const Route = createFileRoute("/business")({
 });
 
 const milestones = [
-  { year: "17 yrs", title: "In banking",            body: "Bank Manager. Suited up. Showed up. Built trust, one ledger at a time." },
+  { year: "11 yrs", title: "In banking",            body: "Bank Manager. Suited up. Showed up. Built trust, one client at a time." },
   { year: "now",    title: "A new road",            body: "Building his own path — financial advisor, new ventures, fresh ground." },
   { year: "always", title: "Family at the center",  body: "Every decision routed through one question: is this good for them?" },
 ];
@@ -47,11 +47,11 @@ function Business() {
         </div>
         <div className="space-y-5">
           <h2 className="font-hand text-4xl text-cocoa leading-tight">
-            17 years of building.<br/>
+            11 years of building.<br/>
             <span className="ink-underline">Then the courage to begin again.</span>
           </h2>
           <p className="font-serif text-lg text-ink/85 leading-relaxed">
-            For seventeen years he wore the bank like a second skin — became its Manager,
+            For eleven years he wore the bank like a second skin — became its Manager,
             steward of other people's plans. And then, one quieter morning,
             he chose to build something of his own.
           </p>

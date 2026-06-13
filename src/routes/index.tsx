@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ScrapbookLayout } from "@/components/ScrapbookLayout";
 import { Polaroid } from "@/components/Polaroid";
 import { StickyNote } from "@/components/StickyNote";
-import heroPhoto from "@/assets/polaroid-family.jpg";
+import heroPhoto from "@/assets/image5.jpeg";
 
 export const Route = createFileRoute("/")({
   component: Home,

@@ -32,8 +32,8 @@ const classified = [
 
 const insideJokes = [
   { color: "rose"   as const, text: "Calls Mumma \u201CPrenka\u201D instead of Priyanka. We're not allowed to correct him.", rotate: -3 },
-  { color: "yellow" as const, text: "Could write a book: \u201C100 Ways to Ignore Your Children Without Them Noticing.\u201D", rotate: 2.5 },
-  { color: "mint"   as const, text: "Emotionally present. Mentally halfway through a Netflix plot twist.", rotate: -2 },
+  { color: "yellow" as const, text: "Could write a book: \u201C100 Ways to Ignore Your Children.\u201D", rotate: 2.5 },
+  { color: "mint"   as const, text: "Emotionally present. Mentally halfway through a HimBus Youtube video", rotate: -2 },
 ];
 
 function About() {

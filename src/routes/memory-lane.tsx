@@ -20,10 +20,10 @@ const polaroids = [
 
 const memoryNotes = [
   { text: "family treks to Indrunag in Dharamshala — boots crunching pine, Papa always 10 steps ahead.", color: "yellow" as const, rotate: -4 },
-  { text: "the vada at the top of the trek. earned, devoured, never forgotten.", color: "rose" as const, rotate: 3 },
+  { text: "the wai wai at the top of the trek. earned, devoured, never forgotten.", color: "rose" as const, rotate: 3 },
   { text: "Kerala. backwaters slow as syrup. coconut on every breeze.", color: "mint" as const, rotate: -2 },
-  { text: "mountain walks where nobody had to say anything.", color: "cream" as const, rotate: 4 },
-  { text: "those quiet afternoons — Papa, the TV, the rest of us pretending to read.", color: "yellow" as const, rotate: -3 },
+  { text: "Cycling experience with papa", color: "cream" as const, rotate: 4 },
+  { text: "Papa, mamma and Mannat.", color: "yellow" as const, rotate: -3 },
 ];
 
 const doodles = ["♡", "✿", "★", "✈", "☼", "❀"];

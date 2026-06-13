@@ -31,7 +31,7 @@ function Food() {
         <h1 className="font-hand text-6xl sm:text-7xl text-cocoa">Dad-Approved Ratings</h1>
         <p className="font-serif italic text-ink/75 max-w-2xl mt-2">
           A registry of meals that have passed through Papa's kitchen tribunal.
-          Verdicts final. Appeals welcome (over chai).
+          Verdicts final. Appeals welcome.
         </p>
       </header>
 
@@ -44,7 +44,7 @@ function Food() {
           <ol className="font-hand-alt text-xl text-ink mt-3 space-y-1 list-decimal list-inside">
             <li>Does it have spice? <span className="text-cocoa">→ probably yes.</span></li>
             <li>Is it sweet? <span className="text-cocoa">→ definitely yes.</span></li>
-            <li>Did Nani make it? <span className="text-cocoa">→ already on the plate.</span></li>
+            <li>Did mamma make it? <span className="text-cocoa">→ already on the plate.</span></li>
           </ol>
           <div className="mt-5 flex flex-wrap gap-2">
             {badges.map((b, i) => (
