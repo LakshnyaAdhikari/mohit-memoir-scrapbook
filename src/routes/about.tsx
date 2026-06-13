@@ -3,14 +3,6 @@ import { ScrapbookLayout } from "@/components/ScrapbookLayout";
 import { StickyNote } from "@/components/StickyNote";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "About Him — The Mohit Files" },
-      { name: "description", content: "A warm, playful personality profile of Mohit Adhikari." },
-      { property: "og:title", content: "About Him — The Mohit Files" },
-      { property: "og:description", content: "The man, the myth, the Netflix marathoner." },
-    ],
-  }),
   component: About,
 });
 

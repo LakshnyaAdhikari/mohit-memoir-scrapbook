@@ -8,14 +8,6 @@ import food from "@/assets/polaroid-food.jpg";
 import family from "@/assets/polaroid-family.jpg";
 
 export const Route = createFileRoute("/memory-lane")({
-  head: () => ({
-    meta: [
-      { title: "Memory Lane — The Mohit Files" },
-      { name: "description", content: "Scattered scrapbook memories — treks, trips, quiet afternoons." },
-      { property: "og:title", content: "Memory Lane — The Mohit Files" },
-      { property: "og:description", content: "Polaroids, sticky notes, and stray doodles from the family album." },
-    ],
-  }),
   component: MemoryLane,
 });
 

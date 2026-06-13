@@ -4,14 +4,6 @@ import { StickyNote } from "@/components/StickyNote";
 import sunrise from "@/assets/sunrise-hills.jpg";
 
 export const Route = createFileRoute("/business")({
-  head: () => ({
-    meta: [
-      { title: "The Business Chapter — The Mohit Files" },
-      { name: "description", content: "17 years in banking, and the brave new road in finance — built on family." },
-      { property: "og:title", content: "The Business Chapter — The Mohit Files" },
-      { property: "og:description", content: "A tribute to courage, resilience, and decisions made with family at the center." },
-    ],
-  }),
   component: Business,
 });
 

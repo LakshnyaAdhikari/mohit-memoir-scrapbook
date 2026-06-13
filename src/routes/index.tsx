@@ -5,14 +5,6 @@ import { StickyNote } from "@/components/StickyNote";
 import heroPhoto from "@/assets/polaroid-family.jpg";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "The Mohit Files — Home" },
-      { name: "description", content: "A scrapbook of stories, laughter, chaos, food reviews, mountains, and love — for Papa." },
-      { property: "og:title", content: "The Mohit Files" },
-      { property: "og:description", content: "An interactive memory album for Papa." },
-    ],
-  }),
   component: Home,
 });
 

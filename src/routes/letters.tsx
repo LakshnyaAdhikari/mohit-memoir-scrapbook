@@ -3,14 +3,6 @@ import { useState } from "react";
 import { ScrapbookLayout } from "@/components/ScrapbookLayout";
 
 export const Route = createFileRoute("/letters")({
-  head: () => ({
-    meta: [
-      { title: "Letters & Reasons — The Mohit Files" },
-      { name: "description", content: "Open any reason. Read the letter inside." },
-      { property: "og:title", content: "Letters & Reasons We Love You" },
-      { property: "og:description", content: "Personal notes from your daughters — and the rest of the four." },
-    ],
-  }),
   component: Letters,
 });
 

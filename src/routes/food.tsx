@@ -4,14 +4,6 @@ import { Polaroid } from "@/components/Polaroid";
 import foodPhoto from "@/assets/polaroid-food.jpg";
 
 export const Route = createFileRoute("/food")({
-  head: () => ({
-    meta: [
-      { title: "Dad-Approved Food Ratings — The Mohit Files" },
-      { name: "description", content: "Official Papa ratings. Sweet Tooth Approved. Would-order-again stamps." },
-      { property: "og:title", content: "Dad-Approved Food Ratings" },
-      { property: "og:description", content: "Khatti dal, madra, kachori, mithai — rated by the household critic himself." },
-    ],
-  }),
   component: Food,
 });
 
